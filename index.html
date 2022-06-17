@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="./public/js/dinamic.js" defer></script>
+    <title>MymangaList</title>
+</head>
+
+<body>
+
+    <nav class="bg-white">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="container mx-auto px-6 border-b-2 border-black">
+                <div class="flex sm:justify-between justify-center">
+                    <div class="flex space-x-7">
+                        <!-- Logo Website -->
+                        <div>
+                            <a href="/" class="flex items-center py-6 sm:py-8 px-2">
+                                <img src="/./public/img/primary.svg" alt="insertar SVG con la etiqueta image "class="h-8 w-8 mr-2 text-yellow-400">
+                                <span class="text-2xl font-semibold text-black">
+                                    MyMangaList
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>  
+    <main class="container mx-auto px-6 mt-6">
+        <form class="form flex gap-2 sm:gap-6 justify-center items-center ">
+            <label for="search" class="text-base sm:text-xl font-semibold text-black">Name  : </label> 
+            <input type="text" class="search border-2 border-black rounded-lg px-2 py-1 w-2/5 sm:w-3/5">
+            <input type="submit" class="submit bg-black text-white border-2 border-black px-4 py-1 rounded-lg " value="search">
+        </form>
+    </main>
+
+    <div class="container mx-auto text-center mt-6 mb-6  ">
+        
+
+    <!-- Content -->
+    <article class="content grid grid-cols-1 sm:grid-cols-4 md:grid-cols-4 justify-items-center gap-4">
+    </article>
+    </div>
+</body>
+
+</html>
